@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url("fotos/hetbegin.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#game-container{
+
+}
+
+#game-container > #title{
+	position: absolute;
+	font-size: 125px;
+	font-family: 'Special Elite', cursive;
+	margin-top: 75px;
+  	width: 100%;
+  	text-align: center;
+}
+
+#game-container > #description{
+	position: absolute;
+	display: none;
+	text-align: center;
+	width: 500px;
+	font-size: 20px;
+	color: white;
+	margin-left: calc(50% - 250px);
+	margin-top: calc(25% - 125px);
+}
+
+
+
+#game-container > #game-buttons > button:nth-of-type(1){
+	position: absolute;
+	padding: 20px 100px;
+	background-color: black;
+	color: white;
+	margin-left: calc(50% - 115px);
+	margin-top: 25%;
+}
+
+#game-container > #game-buttons > button:nth-of-type(2){
+	position: absolute;
+	padding: 20px 100px;
+	background-color: black;
+	color: white;
+	margin-left: calc(25% - 166px);
+	margin-top: 35%;
+}
+
+#game-container > #game-buttons > button:nth-of-type(3){
+	position: absolute;
+	padding: 20px 100px;
+	background-color: black;
+	color: white;
+	margin-left: calc(75% - 160px);
+	margin-top: 35%;
+}
+
+
+#game-container > img{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+}
+
+iframe{
+	position: absolute;	
+	display: none;	
+}
